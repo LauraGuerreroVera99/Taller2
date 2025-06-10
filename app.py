@@ -26,6 +26,8 @@ def load_data():
     df = pd.read_csv("datos_energia.csv")
     df["time"] = pd.to_datetime(df["time"])  
     df.set_index("time", inplace=True)
+    print("Cambio de prueba para sincronización")
+
     return df
     
 
