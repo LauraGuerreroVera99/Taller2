@@ -19,6 +19,8 @@ server = app.server
 app.config.suppress_callback_exceptions = True
 
 
+# Cambio realizado en la rama laura-viz
+
 # Load data from csv
 def load_data():
     df = pd.read_csv("datos_energia.csv")
